@@ -291,7 +291,7 @@ function get_user_by_username($username) {
 }
 
 /* === API HANDLER === */
-if (isset($_GET['api'])) {
+if (isset($_GET['api']) && is_string($_GET['api'])) {
     header("Content-Type: application/json");
     validate_csrf();
     
