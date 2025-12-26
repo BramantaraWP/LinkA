@@ -9,8 +9,8 @@ session_start();
 header('Content-Type: text/html; charset=utf-8');
 
 // TELEGRAM CONFIG (GANTI DENGAN MILIKMU!)
-define('BOT_TOKEN', 'YOUR_BOT_TOKEN_HERE');
-define('CHANNEL_ID', '@YourChannelName');
+define('BOT_TOKEN', '8337490666:AAHhTs1w57Ynqs70GP3579IHqo491LHaCl8');
+define('CHANNEL_ID', '-1003632097565');
 define('TELEGRAM_API', 'https://api.telegram.org/bot');
 
 // DATABASE CONFIG
